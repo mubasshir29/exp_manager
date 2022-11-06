@@ -1,0 +1,42 @@
+.last10-container{
+    box-sizing: border-box;
+    background-color: rgb(234, 233, 233);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 40px;
+    width: 80%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.table-title{
+    margin-right: auto;
+}
+
+.transaction-table{
+    width: 90%;
+    border-collapse: collapse;
+}
+th {
+    background-color:rgb(24, 193, 139);
+    color: white;
+  }
+tr:nth-child(even) {background-color: #f2f2f2;}
+tr:hover {background-color: rgb(242, 208, 130);}
+
+
+.title-container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sub-title{
+    color: #04AA6D;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.sub-title a{
+    text-decoration: none;
+}

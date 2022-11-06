@@ -1,0 +1,10 @@
+.cards-container{
+    box-sizing: border-box;
+    background-color: rgb(234, 233, 233);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    width: 80%;
+    border-radius: 20px;
+    margin-top: 50px;
+}

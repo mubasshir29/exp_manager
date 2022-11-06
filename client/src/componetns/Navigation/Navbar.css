@@ -1,0 +1,26 @@
+.container{
+    width: 100%;
+    background-color:   rgb(24, 193, 139);
+    color: white;
+    box-sizing: border-box;
+}
+.nav-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+    font-weight: bold;
+}
+.logo{
+    font-size:x-large;
+    font-weight: bold;
+}
+
+.nav-list{
+    list-style: none;
+}
+.nav-list li{
+    display: inline-block;
+    margin: 0 0 0 20px;
+}
